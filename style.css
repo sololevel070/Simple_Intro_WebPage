@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+header{
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 22px 15px;
+    border-bottom: 1px solid transparent;
+    transition: all .45s ease; 
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: 9rem;
+}
+
+span{
+    color: yellow;
+}
+.navlist{
+    display: flex;
+}
+.navlist a{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    margin:0 25px;
+    transition: all .45s ease;
+}
+.navlist a:hover{
+    color: blue;
+}
+.navlist a:active{
+    color: blue;
+}
+#menu-icon{
+    font-size: 35px;
+    color: white;
+    z-index: 10001;
+    cursor: pointer;
+    margin-left: 25px;
+}
+section{
+    padding: 160px 7% 120px;
+}
+.home{
+    position: relative;
+    height: 20px;
+    width: 100%;
+    /* display:flex; */
+    /* align-items: center;
+    justify-content: flex-start; */
+}
+.background1{
+    background-image: url(tate.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    height:50rem ;
+
+}
+.h11{
+    font-size: 30px;
+    color: white;
+}
+.h33{
+    font-size: 20px;
+    color: white;
+}
+.button{
+    border-radius: 10px;
+}
+.btn2{
+    color: red;
+    font-size: 20px;
+    padding: 12px 28px;
+   
+}
+.one,.two{
+    font-size: 30px;
+}
+.slide{
+    margin-bottom: 10px;
+}
+.about-image img{
+    width: 27rem;
+    height: 33rem;
+    margin-left: 10rem;
+    border-radius: 1rem;
+}
+#about{
+    background-color: #2f2f30;
+    display: flex;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    gap: 9rem;
+}
+p{
+    color: white;
+}
+.head1{
+    position: absolute;
+    top: 105rem;
+    left: 7rem;
+}
+/* .info{
+    position: absolute;
+    top: 108rem;
+    left: 26rem;
+}
+.for{
+    position: absolute;
+    top: 115rem;
+    left: 26rem;
+} */
+#button{
+    font-size: 20px;
+    padding: 12px 28px;
+}
+.contact{
+    grid-template-rows:repeat(2,2fr) ;
+    background-color: #2c49a8;
+}
+h3{
+    color: white;
+}
+hr{
+    position: relative;
+    bottom: 27px;
+}
